@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Kematian di Indonesia - Tabulasi Silang</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%; /* Sesuaikan lebar tabel di sini */
+            margin: 10px 0;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <input type="file" id="fileInput" accept=".csv">
+    <div id="output"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
